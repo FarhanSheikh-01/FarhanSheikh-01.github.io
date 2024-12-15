@@ -793,14 +793,14 @@ section {
     text-decoration: none;
     background-color: #1d66a6;
     color: #ffffff;
-    border-radius: 4px;
+    border-radius: 30px;
     border: none;
     transition: background-color 0.3s ease;
     margin-top: 10px; /* Space between text and button */
   }
   
   .download-button:hover {
-    background-color: #ffffff;
+    background-color: #d8dfe6;
   }
   
 /*--------------------------------------------------------------
@@ -899,29 +899,6 @@ section {
   left: 0;
   right: 0;
 }
-/*
-  #hero h1 {
-    margin: 0;
-    font-size: 4rem; 
-    font-weight: 700;
-    line-height: 1.4;
-    color: #45505b;
-    padding-left: 50%; 
-  }
-  
-  #hero p {
-    padding-left: 50%; 
-    color: #45505b;
-    margin: 15px 0 0 0;
-    font-size: 1.3rem; 
-    font-family: "Poppins", sans-serif;
-  }
-  
-  #hero p span {
-    color: #0563bb;
-    letter-spacing: 1px;
-  }
-  */
 
 #Pyhero h1 {
   margin: 0;
