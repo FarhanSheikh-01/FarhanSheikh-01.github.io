@@ -566,166 +566,109 @@ section {
   padding-bottom: 0px;
 }
 /*--------------------------------------------------------------
-  # Portfolio
+  # Certificate
   --------------------------------------------------------------*/
-/* Portfolio Section Styling */
-#portfolio {
-  padding: 60px 200px;
-  background-color: #f9f9f9;
-  text-align:center;
-}
-
-/* Centering and aligning the portfolio container items */
-.portfolio-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-/* Portfolio item styling for block-like appearance */
-.portfolio-item {
-  width: 300px;
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s ease;
-}
-
-/* Certificate Image Styling */
-.portfolio-item img {
-  width: 125%; /* Wider than the container */
-  max-height: 350px;
-  border-radius: 8px;
-  object-fit: cover;
-  margin: auto; /* Centering the image within its container */
-  transform: translateX(-12.5%); /* Center image adjustment */
-  transition: transform 0.3s ease;
-}
-
-/* Hover Effect for Portfolio Item Block */
-.portfolio-item:hover {
-  transform: scale(1.05);
-}
-
-/* Section Title Styling */
-#portfolio .section-title h2 {
+/* Certificate Section Styling */
+.certificates-section {
   text-align: center;
+  padding: 50px 0;
+}
+
+.section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 40px;
-  color: #333;
 }
+
+.certificates-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.certificate-box {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-box .icon img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.certificate-box h4 {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.certificate-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+.learn-more {
+  color: #0563bb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 
 /*--------------------------------------------------------------
   # Services
   --------------------------------------------------------------*/
 /* Projects Section */
 .projects-section {
-  padding: 60px 0; /* Add padding to the section */
-  background: #f9f9f9; /* Light background color for contrast */
+  text-align: center;
+  padding: 50px 0;
 }
 
-.projects-section .section-title {
-  text-align: center; /* Center the title */
-  margin-bottom: 40px; /* Space below the title */
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
 }
 
-.projects-section .projects-grid {
-  display: grid; /* Use grid layout for projects */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-  gap: 30px; /* Space between grid items */
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .project-box {
-  background: #ffffff; /* White background for boxes */
-  padding: 20px; /* Inner padding */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
-  text-align: center; /* Center align text */
-  transition: all ease-in-out 0.3s; /* Smooth hover transition */
-}
-
-.project-box:hover {
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15); /* Shadow on hover */
-}
-
-.project-box .icon {
-  margin-bottom: 15px; /* Space below icon */
-  width: 80px; /* Width of the icon */
-  height: 80px; /* Height of the icon */
-  overflow: hidden; /* Hide overflow */
-  border-radius: 50%; /* Circular shape */
-  display: flex; /* Flex to center */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  background: #f5f5f5; /* Light background for the icon area */
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-box .icon img {
-  width: 100%; /* Full width for image */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Remove inline spacing */
+  width: 60px;
+  height: 60px;
 }
 
 .project-box h4 {
-  font-weight: 600; /* Bold title */
-  margin: 10px 0; /* Margin around title */
-  font-size: 22px; /* Title font size */
-}
-
-.project-box h4 a {
-  color: #45505b; /* Link color */
-  text-decoration: none; /* No underline */
-  transition: color ease-in-out 0.3s; /* Smooth color change */
-}
-
-.project-box h4 a:hover {
-  color: #47aeff; /* Color change on hover */
+  margin: 15px 0;
+  font-size: 18px;
 }
 
 .project-box p {
-  line-height: 24px; /* Spacing between lines */
-  font-size: 14px; /* Description font size */
-  margin-bottom: 0; /* No margin below */
+  font-size: 14px;
+  color: #666;
 }
 
-/* Color Specific Styles */
-.iconbox-orange {
-  border-left: 5px solid #ffa76e; /* Left border for color indication */
+.learn-more {
+  color: #0563bb;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.iconbox-pink {
-  border-left: 5px solid #e80368; /* Left border for color indication */
-}
-
-.iconbox-blue {
-  border-left: 5px solid #47aeff; /* Left border for color indication */
-}
-
-.iconbox-teal {
-  border-left: 5px solid #11dbcf; /* Left border for color indication */
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .projects-section .projects-grid {
-    grid-template-columns: 1fr; /* Stack items on small screens */
-  }
-
-  .project-box {
-    padding: 15px; /* Reduce padding on small screens */
-  }
-
-  .project-box .icon {
-    width: 60px; /* Adjust icon size */
-    height: 60px; /* Adjust icon size */
-  }
-}
 
 /*--------------------------------------------------------------
   # Contact
